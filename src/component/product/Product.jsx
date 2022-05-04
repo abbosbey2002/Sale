@@ -53,7 +53,7 @@ const Product=()=>{
                 <p className="lead fw-bolder"> Rating {Product.rating && Product.rating.rate} <i className="fa fa-star"></i> </p>
                 <h3 className="display-6 fw-bolder">${Product.price}</h3>
                 <p className="lead">{Product.description}</p>
-                <button className="btn btn-outline-dark px-4 py-2">Add to cart</button>
+                <button className="btn btn-outline-dark px-4 py-5">Add to cart</button>
                 <NavLink className="btn btn-dark ms-3 py-2" to='cart' >Go to cart</NavLink>
                 
             </div>
